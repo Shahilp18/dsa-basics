@@ -1,0 +1,7 @@
+# Ignore all files without extensions
+*
+!*/
+!*.cpp
+!*.h
+!*.gitignore
+!*.md

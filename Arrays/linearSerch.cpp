@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int search(int arr[], int size, int target){
+    for (int i = 0; i < size; i++)
+    {
+        if(arr[i] == target){
+            return i;
+        }
+    }
+    return -1;
+    
+}
+
+int main()
+{
+    int arr[] = {1, 3, 5, 7, 9};
+    int size = 5;
+    int target = 5;
+
+    cout<<search(arr, size, target);
+
+    return 0;
+}
